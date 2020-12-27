@@ -1,0 +1,27 @@
+{
+  "name": "api_hrdatabank_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Skhiri Asma",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "password-generator": "^2.3.2",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.4"
+  }
+}
